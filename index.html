@@ -15,11 +15,12 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
             required
+            id="search-form-input"
             class="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
@@ -29,7 +30,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">South Africa</h1>
+            <h1 class="weather-app-city" id="city">South Africa</h1>
             <p class="weather-app-details">
               Thursday 10:57, light intensity drizzle
               <br />
@@ -60,5 +61,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
