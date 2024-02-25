@@ -80,14 +80,14 @@ footer {
 }
 
 .weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 
 .weather-app-temperature {
   font-size: 88px;
   font-weight: bold;
-  margin-left: 10px;
+  line-height: 88px;
 }
 
 .weather-app-unit {
